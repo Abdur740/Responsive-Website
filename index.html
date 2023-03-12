@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <div class="display" id="display">
+        <span class="left" id="previous"><img src="left.svg" alt="" onclick="leftImg()"></span>
+        <img  id="image" src="" alt="">
+        <span class="cls" id="close" onclick="closeImage()"><img src="close.svg" alt=""></span>
+        <span class="right" id="next"><img src="right.svg" alt="" onclick="rightImg()"></span>
+    </div>
+   
+    <div class="outer-container">
+        <header>
+            <nav>
+                <div>
+                <img src="logo.svg" alt="logo">
+                </div>
+                <ul>
+                    <li>Photography</li>
+                    <li>Travel</li>
+                    <li>Nature</li>
+                    <li>Fashion</li>
+                    <li>Lifestyle</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>    
+        </header>
+        <h1>Photography is an art of delivering the past into present </h1>
+        <h2>Welcome to Photo Gallery</h2>
+        <ul>
+            <li>Photography</li>
+            <li>Art</li>
+            <li>Nature</li>
+            <li>Cars</li>
+        </ul>
+        </div>
+        <div class="container">
+            <h1>Image Gallery</h1>
+            <div class="inner-container">
+                <img class="imgs" id="image1" src="image1.avif" alt="1" onclick="openImage(this)">
+                <img class="imgs" id="image2" src="image2.avif" alt="2" onclick="openImage(this)">
+                <img class="imgs" id="image3" src="image3.avif" alt="3" onclick="openImage(this)">
+                <img class="imgs" id="image4" src="image4.avif" alt="4" onclick="openImage(this)">
+                <img class="imgs" id="image5" src="image5.avif" alt="5" onclick="openImage(this)">
+                <img class="imgs" id="image6" src="image11.avif" alt="6" onclick="openImage(this)">
+                <img class="imgs" id="image7" src="image7.avif" alt="7" onclick="openImage(this)">
+                <img class="imgs" id="image8" src="image8.avif" alt="8" onclick="openImage(this)">
+                <img class="imgs" id="image9" src="image9.avif" alt="9" onclick="openImage(this)">
+                <img class="imgs" id="image10" src="image10.avif" alt="10" onclick="openImage(this)">
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="box1">
+                    <h3>Useful Links</h3>
+                    <a href="">About</a>
+                    <a href="">Services</a>
+                    <a href="">Social Media</a>
+                    <a href="">Career</a>
+                    <a href="">Blog</a>
+                </div>
+                <div class="box2">
+                    <h3>Newsletter</h3>
+                    <div>
+                        <input type="text" placeholder="Enter Email">
+                        <button>Subscribe</button>
+                        <p>Subscribe Now To get Unlimited Feeds</p>
+                        <p class="copyright">&copy Tringapps</p> 
+                    </div>
+                </div>
+                <div class="box3">
+                    <h3>Contact</h3>
+                    <p>Door No.18/57<br>11th East Cross Street, Anna Nagar<br>Madurai-625050</p>
+                </div> 
+            </div>
+        </footer>
+    <script src="index.js"></script>
+</body>
+</html>
