@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
-    <title>Image Gallery</title>
+    <title>Responsive Website</title>
 </head>
 <body>
+ 
     <div class="display" id="display">
         <span class="left" id="previous"><img src="left.svg" alt="" onclick="leftImg()"></span>
         <img  id="image" src="" alt="">
@@ -24,7 +26,7 @@
                 <div>
                 <img src="logo.svg" alt="logo">
                 </div>
-                <ul>
+                <ul >
                     <li>Photography</li>
                     <li>Travel</li>
                     <li>Nature</li>
@@ -36,11 +38,11 @@
         </header>
         <h1>Photography is an art of delivering the past into present </h1>
         <h2>Welcome to Photo Gallery</h2>
-        <ul>
-            <li>Photography</li>
-            <li>Art</li>
-            <li>Nature</li>
-            <li>Cars</li>
+        <ul class="cont-ul">
+            <li class="cont-li">Photography</li>
+            <li class="cont-li">Art</li>
+            <li class="cont-li">Nature</li>
+            <li class="cont-li">Cars</li>
         </ul>
         </div>
         <div class="container">
@@ -58,6 +60,14 @@
                 <img class="imgs" id="image10" src="image10.avif" alt="10" onclick="openImage(this)">
             </div>
         </div>
+        <div class="second-container">
+            <div class="content">
+                <h2 style="font-family: 'Caveat', cursive;">Art!</h2>
+                <p style=" font-family: 'Archivo', sans-serif;line-height: 1.5;">In less than a hundred years, photography has become a part of almost every element of our lives. Almost everyone has a camera in their cell phone, and photos are taken all day, every day. We are constantly seeing photographic images on our electronic devices, in print media, and advertising. 
+                    Since photography has become so widespread and diverse, it’s hard to narrow down precisely what photography is and whether it is still a form of art. This article will explore how photography rose to prominence and is now widely used in both everyday life and the fine art world.</p>
+            </div>
+        </div>
+ 
         <footer>
             <div class="footer">
                 <div class="box1">
@@ -83,6 +93,7 @@
                 </div> 
             </div>
         </footer>
+
     <script src="index.js"></script>
 </body>
 </html>
