@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100vh;
 }
 header{
     width: 90%;
@@ -391,10 +390,10 @@ button:hover{
     .box1{
         width: 100%;
         height: 30vh;
-        padding: 5px;
         display: flex;
         flex-direction: column;
         border-bottom: 1px solid;
+        padding: 0;
     }
     .box1 a{
         text-decoration: none;
@@ -407,8 +406,8 @@ button:hover{
         display: flex;
         flex-direction: column;
         height: 30vh;
-        padding: 5px;
         border-bottom: 1px solid;
+        padding: 0;
     }
     .box2 input[type="text"]{
         padding:10px 15px;
@@ -432,7 +431,7 @@ button:hover{
     .box3{
         width: 100%;
         height: 30vh;
-        padding: 5px;
+        padding: 0;
     }
     .box3 p{
         line-height: 2;
